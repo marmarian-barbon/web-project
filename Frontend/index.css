@@ -1,0 +1,24 @@
+.person {
+	background-color: bisque;
+}
+
+.person + .person {
+	margin-top: 32px;
+}
+
+.person__field + .person__field {
+	margin-top: 16px;
+}
+
+.field {
+	background-color: aquamarine;
+}
+
+.field__title {
+	font-size: 3em;
+}
+
+.field__value {
+	font-size: 3em;
+	font-weight: bolder;
+}
