@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"install-dependencies": "npm install",
+		"run-server": "json-server --watch \"db.json\""
+	},
+	"dependencies": {
+		"json-server": "*"
+	}
+}
