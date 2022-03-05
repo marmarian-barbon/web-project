@@ -3,6 +3,7 @@
 		"editorconfig.editorconfig",
 		"rangav.vscode-thunder-client",
 		"eg2.vscode-npm-script",
-		"christian-kohler.npm-intellisense"
+		"christian-kohler.npm-intellisense",
+		"svelte.svelte-vscode"
 	]
 }

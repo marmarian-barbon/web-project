@@ -3,3 +3,4 @@ Backend/package-lock.json
 
 Frontend/node_modules/
 Frontend/package-lock.json
+Frontend/public/build/bundle.*

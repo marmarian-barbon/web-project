@@ -1,0 +1,28 @@
+{
+	"devDependencies": {
+		"@tsconfig/svelte": "*",
+		"@types/node": "*",
+		"cross-env": "*",
+		"css-loader": "*",
+		"mini-css-extract-plugin": "*",
+		"svelte": "*",
+		"svelte-check": "*",
+		"svelte-loader": "*",
+		"svelte-preprocess": "*",
+		"ts-loader": "*",
+		"tslib": "*",
+		"typescript": "*",
+		"webpack": "*",
+		"webpack-cli": "*",
+		"webpack-dev-server": "*"
+	},
+	"scripts": {
+		"build": "cross-env NODE_ENV=production webpack",
+		"dev": "webpack serve",
+		"validate": "svelte-check"
+	},
+	"dependencies": {
+		"node-sass": "^7.0.1",
+		"sass": "^1.49.9"
+	}
+}
