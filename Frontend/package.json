@@ -5,6 +5,7 @@
 		"cross-env": "*",
 		"css-loader": "*",
 		"mini-css-extract-plugin": "*",
+		"sass": "*",
 		"svelte": "*",
 		"svelte-check": "*",
 		"svelte-loader": "*",
@@ -12,7 +13,6 @@
 		"ts-loader": "*",
 		"tslib": "*",
 		"typescript": "*",
-		"webpack": "*",
 		"webpack-cli": "*",
 		"webpack-dev-server": "*"
 	},
@@ -22,7 +22,6 @@
 		"validate": "svelte-check"
 	},
 	"dependencies": {
-		"node-sass": "^7.0.1",
-		"sass": "^1.49.9"
+		"webpack": "*"
 	}
 }
