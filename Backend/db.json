@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Категория 1"
+    },
+		{
+      "id": 2,
+      "title": "Категория 2"
+    }
+  ],
+  "persons": [
+    {
+      "id": 0,
+      "first_name": "Вася",
+			"last_name": "Пупкин",
+			"category_id": 1
+    },
+		{
+      "id": 1,
+      "first_name": "Владимир",
+			"last_name": "Путин",
+			"category_id": 2
+    },
+		{
+      "id": 2,
+      "first_name": "Гурбангулы",
+			"last_name": "Бердымухамедов",
+			"category_id": 2
+    }
+  ]
+}
