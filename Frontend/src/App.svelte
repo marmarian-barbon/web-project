@@ -72,12 +72,14 @@
 </script>
 
 <header>
-	<div on:click={toHome}>Главная</div>
-	{#if caregoriesList}
-	{#each caregoriesList as category}
-	<div on:click={() => toCategory(category.id)}>{category.title}</div>
-	{/each}
-	{/if}
+	<nav>
+		<div on:click={toHome}>Главная</div>
+		{#if caregoriesList}
+		{#each caregoriesList as category}
+		<div on:click={() => toCategory(category.id)}>{category.title}</div>
+		{/each}
+		{/if}
+	</nav>
 </header>
 
 <main>
